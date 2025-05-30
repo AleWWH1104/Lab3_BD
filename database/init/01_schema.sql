@@ -1,7 +1,7 @@
 -- Tipos personalizados
-CREATE TYPE dificultad_tipo AS ENUM ('Fácil', 'Media', 'Difícil');
+CREATE TYPE dificultad_tipo AS ENUM ('facil', 'media', 'dificil');
 CREATE TYPE unidad_medida AS ENUM ('gramos', 'mililitros', 'cucharadas', 'tazas', 'unidad');
-CREATE TYPE categoria_ingrediente AS ENUM ('vegetal', 'proteína', 'grano', 'fruta', 'lácteo', 'especia', 'otro');
+CREATE TYPE categoria_ingrediente AS ENUM ('vegetal', 'proteina', 'grano', 'fruta', 'lacteo', 'especia', 'otro');
 
 
 -- Tabla de ingredientes
