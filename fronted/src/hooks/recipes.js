@@ -32,6 +32,7 @@ export const onEditarReceta = async (id, nuevosDatos) => {
 export const onEliminarReceta = async (id, reloadRecetas, reloadVista) => {
   try {
     await eliminarReceta(id);
+    alert("Receta eliminada correctamente");
     reloadRecetas();
     reloadVista();
   } catch (error) {
