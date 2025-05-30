@@ -10,7 +10,7 @@ function App() {
         <Routes>
             <Route path='/' element={<MainPage />} />
             <Route path='/create' element={<CreateRecipePage />} />
-            <Route path='/edit' element={<EditRecipePage />} />       
+            <Route path='/edit/:id' element={<EditRecipePage />} />       
         </Routes>
     </BrowserRouter>
   )
