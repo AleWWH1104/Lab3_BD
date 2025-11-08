@@ -2,7 +2,7 @@ import axios from "axios";
 
 const instance = axios.create(
     {
-        baseURL:'https://api-lab3-bd.eduvial.space/api',
+        baseURL: process.env.VITE_API_URL,
         withCredentials: false
     }
 )
